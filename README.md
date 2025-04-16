@@ -40,4 +40,4 @@ Welcome to my personal portfolio website! This project showcases my skills, expe
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/portfolio-website.git
+   git clone https://github.com/Hkjaiswal02/Portfolio.git
