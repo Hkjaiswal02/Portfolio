@@ -27,8 +27,7 @@ Welcome to my personal portfolio website! This project showcases my skills, expe
 
 - HTML5
 - CSS3
-- JavaScript (optional)
-- Responsive Design with Flexbox/Grid
+- Design with Flexbox/Grid
 
 ## 📷 Hero Section Highlight
 
