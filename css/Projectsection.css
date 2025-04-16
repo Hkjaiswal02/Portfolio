@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 10%;
+    background-color: rgba(0, 0, 0, 0.801);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+.logo{
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+.logo:hover{
+    color: orangered;
+    text-shadow: 0 0 25px orangered;
+    transform: scale(1.1);
+}
+span{
+    color: orangered;
+}
+.navbar a{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 20px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+.navbar a:hover,
+.navbar a.action{
+    color: orangered;
+    border-bottom: 3px solid orangered;
+}
+.navbar .Project{
+    color: orangered;
+    border-bottom: 3px solid orangered;
+
+}
+
+.contact{
+    padding: 15px;
+    background-color: white;
+    color: black;
+    border: 3px solid transparent;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+
+}
+.contact:hover{
+    background-color: orangered;
+    box-shadow: 0 0 25px orangered;
+    color: white;
+    transform: scale(1.1);
+}
+
+.heading{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding-top: 150px;
+}
+.heading h2{
+    font-size:40px;
+    text-align: center;
+}
+
+
+/* project Css */
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+    padding: 40px 10%;
+    background-color: #ffffff;
+}
+
+.project-card {
+    background-color: white;
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 20px orangered;
+}
+
+.project-image {
+    background-color: orangered;
+    text-align: center;
+    padding: 15px;
+}
+
+.project-image img {
+    width: 100%;
+    max-height: 130px;
+    object-fit: cover;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+.project-details {
+    padding: 15px;
+}
+
+.project-details h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: orangered;
+}
+
+.project-details ul {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.project-details a {
+    color: orangered;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.801);
+    padding: 40px 0;
+}
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color:white;
+}
+.footer .social a{
+    font-size: 24px;
+    color: white;
+    border: 2px solid orangered;
+    width: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    box-shadow: inset 0 10px orangered
+                0 0 10px orangered;
+    transition: 0.3s ease;
+}
+
+.footer .social a:hover{
+    transform: scale(1.2);
+    color: orangered;
+    border: 2px solid orangered;
+}
+
+.footer ul{
+    margin-top:0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.footer ul li a{
+    color: white;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+
+.footer ul li a:hover{
+    border-bottom: 3px solid orangered;
+}
+
+.footer ul li {
+     display: inline-block;
+     padding: 0 15px;
+}
+
+.footer .copyright{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+}
+
+
+
