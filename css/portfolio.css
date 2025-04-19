@@ -42,8 +42,13 @@ span{
     border-bottom: 3px solid transparent;
     transition: 0.3s ease;
 }
+
 .navbar a:hover,
 .navbar a.action{
+    color: orangered;
+    border-bottom: 3px solid orangered;
+}
+.navbar .active{
     color: orangered;
     border-bottom: 3px solid orangered;
 }
@@ -293,34 +298,3 @@ textarea{
     font-size: 12px;
     color: white;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

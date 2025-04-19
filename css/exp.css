@@ -107,7 +107,7 @@ span{
     color: #fff;
     width: 100%;
     height: 100%;
-    padding: 200px 20px;
+    padding: 200px 20px 100px 20px;
     text-align: center;
   }
   
@@ -133,17 +133,83 @@ span{
     transition: transform 0.3s ease;
   }
 
-
-  
   .experience-card:hover {
     transform: translateY(-10px);
   }
-  
   .experience-card h3 {
     color: #ff5722;
     margin-bottom: 10px;
   }
   
+
+
+.c-head h2{
+    background-color: #1e1e1e;
+    color: white;
+    font-size: 2.5em;
+    padding-top: 20px;
+    text-align: center;
+}
+.Certificate {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+    padding: 40px 10%;
+    background-color: #1e1e1e;
+}
+
+
+
+.Certificate-card {
+    padding-top: 0px;
+    background-color: rgb(40, 38, 38);
+    color: white;
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Certificate-card:hover {
+    transform: translateY(-1.1em);
+    box-shadow: 0 0 20px orangered;
+}
+
+.Certificate-image {
+    background-color: orangered;
+    text-align: center;
+    padding: 15px;
+}
+
+.Certificate-image img {
+    width: 100%;
+    max-height: 130px;
+    object-fit: cover;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+.Certificate-details {
+    padding: 15px;
+}
+
+.Certificate-details h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.Certificate-details ul {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.Certificate-details a {
+    color: orangered;
+    text-decoration: underline;
+}
 
 
 
