@@ -298,3 +298,94 @@ textarea{
     font-size: 12px;
     color: white;
 }
+
+
+
+
+
+
+
+
+
+
+
+/* for mobile */
+    @media (max-width: 500px) {
+        .header {
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+          padding: 15px;
+        }
+      
+        .navbar {
+            display: flex;
+            gap: 1em;
+        }
+      
+        .navbar a {
+            margin: 0;
+          font-size: 13px;
+        }
+      
+        .logo {
+          font-size: 22px;
+          margin-bottom: 10px;
+        }
+      
+        .contact {
+          margin-top: 10px;
+          font-size: 15px;
+          padding: 10px 15px;
+        }
+      
+        .home {
+          flex-direction: column-reverse;
+          gap: 2em;
+          padding: 200px 5% 50px; /* Increased padding for clarity */
+        }
+      
+        .home-content {
+          text-align: center;
+        }
+      
+        .home-content h3,
+        .home-content h1 {
+          font-size: 28px;
+        }
+      
+        .img-box img {
+          width: 220px;
+          height: 220px;
+        }
+        .btn-box {
+            flex-direction: column;
+            align-items: center; /* ✅ This centers children horizontally */
+            justify-content: center;
+            margin: 0 auto; /* ✅ This centers the .btn-box itself */
+            gap: 1em;
+          }
+      
+        .about {
+          flex-direction: column;
+          gap: 2em;
+          padding: 20% 5%;
+          text-align: center;
+        }
+      
+        .about-content h2,
+        .about-content h3 {
+            text-align: center;
+            font-size: 28px;
+        }
+      
+        .about-img img {
+          width: 250px;
+          height: 250px;
+        }
+
+        .contact-form {
+            padding: 10px;
+        }
+
+    }
